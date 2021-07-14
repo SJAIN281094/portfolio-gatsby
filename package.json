@@ -27,6 +27,7 @@
     "gatsby-plugin-gatsby-cloud": "^2.8.1",
     "gatsby-plugin-material-ui": "^3.0.1",
     "gatsby-plugin-prettier-eslint": "^1.0.6",
+    "gatsby-theme-material-ui": "^2.0.1",
     "i": "^0.3.6",
     "npm": "^7.19.1",
     "prettier": "^2.3.2",

@@ -1,6 +1,5 @@
-import { createTheme, responsiveFontSizes } from '@material-ui/core/styles';
-import grey from '@material-ui/core/colors/grey';
-import green from '@material-ui/core/colors/green';
+import { createTheme } from '@material-ui/core/styles';
+import { grey, green } from '@material-ui/core/colors';
 
 const theme = createTheme({
   palette: {
@@ -32,7 +31,5 @@ const theme = createTheme({
     },
   },
 });
-
-console.log('theme', theme);
 
 export default theme;
