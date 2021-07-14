@@ -7,7 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Grid from '@material-ui/core/Grid';
 import NavigationLinks from '../navigationLinks';
-import logo from '../../../../public/static/images/logo.png';
+import logo from '../../../images/logo.png';
 
 const Container = ({ ...props }) => <Grid container {...props} />;
 const Item = ({ ...props }) => <Grid item {...props} />;
