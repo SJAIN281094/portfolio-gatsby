@@ -1,7 +1,9 @@
+import homeBackground from '../../../images/home_background.png';
+
 const styles = (theme) => {
   return {
     homeContainer: {
-      backgroundImage: `url(${'../../../images/home_background.png'})`,
+      backgroundImage: `url(${homeBackground})`,
       height: '100vh',
       paddingTop: '65px',
       backgroundSize: 'contain',
