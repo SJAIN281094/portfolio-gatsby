@@ -1,7 +1,7 @@
 const styles = (theme) => {
   return {
     homeContainer: {
-      backgroundImage: `url(${'/static/images/home_background.png'})`,
+      backgroundImage: `url(${'../../../images/home_background.png'})`,
       height: '100vh',
       paddingTop: '65px',
       backgroundSize: 'contain',
