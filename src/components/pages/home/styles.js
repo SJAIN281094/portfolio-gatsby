@@ -37,7 +37,7 @@ const styles = (theme) => {
       color: theme.palette.common.white,
       margin: 0,
       marginLeft: '50px',
-      lineHeight: '5rem',
+      lineHeight: '3rem',
     },
   };
 };
