@@ -24,8 +24,10 @@ function About(props) {
                 <img src={aboutImg} className={classes.illustration} />
               </Item>
               <Item xs={6} className={classes.aboutTextWrapper}>
-                <Container>
-                  <p className={classes.question}>WHO AM I?</p>
+                <Container direction="column">
+                  <p>
+                    <span className={classes.question}>WHO AM I?</span>
+                  </p>
                   <p className={classes.aboutText}>
                     Hi! I'm Shubham Jain born and raised in the city of Taj,
                     Agra, India.

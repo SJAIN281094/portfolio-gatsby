@@ -1,11 +1,11 @@
-import homeBackground from '../../../images/home_background.png';
+import homeBackground from '../../../images/background.png';
 
 const styles = (theme) => {
   return {
     aboutContainer: {
       backgroundImage: `url(${homeBackground})`,
       height: '100vh',
-      padding: '0 50px',
+      padding: '0 50px 50px',
       fontFamily: 'poppins',
       fontWeight: 400,
       fontSize: '2rem',
@@ -14,7 +14,6 @@ const styles = (theme) => {
       width: '100%',
       backgroundColor: '#1f1010ad',
       display: 'flex',
-      padding: '10px 0',
     },
     aboutSectionLeft: {
       padding: '10px 30px',
@@ -63,15 +62,17 @@ const styles = (theme) => {
     },
     question: {
       fontWeight: 500,
+      position: 'relative',
       color: theme.palette.primary.contrastText,
       '&:after': {
         width: '100%',
         height: '1px',
         content: '""',
-        display: 'block',
+        display: 'inline',
         backgroundColor: 'white',
         bottom: '-1px',
-        position: 'relative',
+        position: 'absolute',
+        left: 0,
       },
     },
     aboutText: {
