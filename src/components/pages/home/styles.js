@@ -1,4 +1,4 @@
-import homeBackground from '../../../images/home_background.png';
+import homeBackground from '../../../images/background.png';
 
 const styles = (theme) => {
   return {
