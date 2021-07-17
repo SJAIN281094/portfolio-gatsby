@@ -20,6 +20,7 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@material-ui/styles": "^4.11.4",
     "babel-eslint": "^10.1.0",
+    "classnames": "^2.3.1",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
