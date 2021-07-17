@@ -12,7 +12,7 @@ const styles = (theme) => {
       width: '100%',
       height: '100%',
       filter: 'brightness(0.7)',
-      backgroundSize: 'inherit',
+      backgroundSize: 'cover',
       zIndex: -99,
       margin: 0,
     },
@@ -58,19 +58,27 @@ const styles = (theme) => {
     },
     timeRange: {
       color: theme.palette.primary.contrastText,
-      fontWeight: 500,
+      fontWeight: 600,
     },
     timelineDot: {
       borderColor: 'inherit',
       backgroundColor: 'inherit',
     },
+    textAlignLeft: {
+      textAlign: 'left',
+    },
     companyIcon: {
-      width: '40px',
-      borderRadius: '40px',
+      width: '50px',
+      borderRadius: '50px',
     },
     companyName: {
       color: theme.palette.common.white,
       fontWeight: 500,
+    },
+    companyCagetory: {
+      position: 'relative',
+      color: theme.palette.common.white,
+      bottom: '15px',
     },
     workingExperience: {
       color: theme.palette.common.white,
