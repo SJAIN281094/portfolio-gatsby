@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './home';
 import About from './about';
 import Experirnce from './experience';
+import Skill from './skill';
 
 function Index(props) {
   return (
@@ -9,6 +10,7 @@ function Index(props) {
       <Home />
       <About />
       <Experirnce />
+      <Skill />
     </>
   );
 }
