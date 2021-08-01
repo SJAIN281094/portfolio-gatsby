@@ -4,11 +4,11 @@ const styles = (theme) => {
   return {
     aboutContainer: {
       backgroundImage: `url(${homeBackground})`,
-      height: '100vh',
       padding: '0 50px 50px',
       fontFamily: 'poppins',
       fontWeight: 400,
       fontSize: '2rem',
+      height: '100vh',
     },
     aboutPaper: {
       width: '100%',
@@ -22,6 +22,7 @@ const styles = (theme) => {
       display: 'flex',
       color: theme.palette.primary.contrastText,
       position: 'relative',
+      marginBottom: '20px',
       '&:before': {
         width: '100%',
         height: '2px',

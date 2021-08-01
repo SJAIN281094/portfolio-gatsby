@@ -3,6 +3,8 @@ import Home from './home';
 import About from './about';
 import Experirnce from './experience';
 import Skill from './skill';
+import Project from './project';
+import Contact from './contact';
 
 function Index(props) {
   return (
@@ -11,6 +13,8 @@ function Index(props) {
       <About />
       <Experirnce />
       <Skill />
+      <Project />
+      <Contact />
     </>
   );
 }
