@@ -32,12 +32,12 @@ const itemData = [
   {
     img: JsImg,
     title: 'Js',
-    cols: 4,
+    cols: 3,
   },
   {
     img: NodeImg,
     title: 'Nodejs',
-    cols: 3,
+    cols: 2,
   },
 
   {
@@ -49,31 +49,26 @@ const itemData = [
   {
     img: TypescriptImg,
     title: 'Typescript',
-    cols: 3,
+    cols: 2,
   },
   {
     img: DockerImg,
     title: 'Docker',
-    cols: 3,
+    cols: 2,
   },
   {
     img: ReactImg,
     title: 'Reactjs',
-    cols: 4,
+    cols: 3,
   },
   {
     img: ExpressImg,
     title: 'Express',
-    cols: 4,
+    cols: 2,
   },
   {
-    img: GitImg,
-    title: 'Git',
-    cols: 3,
-  },
-  {
-    img: SocketImg,
-    title: 'Socket',
+    img: MysqlImg,
+    title: 'Mysql',
     cols: 3,
   },
   {
@@ -82,9 +77,14 @@ const itemData = [
     cols: 3,
   },
   {
-    img: MysqlImg,
-    title: 'Mysql',
-    cols: 4,
+    img: SocketImg,
+    title: 'Socket',
+    cols: 2,
+  },
+  {
+    img: GitImg,
+    title: 'Git',
+    cols: 2,
   },
   {
     img: JenkinsImg,
@@ -94,12 +94,12 @@ const itemData = [
   {
     img: PostgresImg,
     title: 'Postgres',
-    cols: 4,
+    cols: 2,
   },
   {
     img: K8Img,
     title: 'K8',
-    cols: 4,
+    cols: 2,
   },
 ];
 
@@ -113,7 +113,7 @@ function Skill(props) {
           <Item className={classes.heading}>Skills</Item>
           <Item>
             <Container>
-              <Item xs={6} className={classes.illustrationWrapper}>
+              <Item xs={8} className={classes.illustrationWrapper}>
                 <ImageList rowHeight={120} cols={11}>
                   {itemData.map((item) => (
                     <ImageListItem key={item.img} cols={item.cols || 1}>
@@ -126,7 +126,7 @@ function Skill(props) {
                   ))}
                 </ImageList>
               </Item>
-              <Item xs={6} className={classes.aboutTextWrapper}>
+              <Item xs={4} className={classes.aboutTextWrapper}>
                 <Container direction="column">
                   <Typography component="p">
                     <Typography className={classes.question} component="span">
